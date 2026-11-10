@@ -1,0 +1,16 @@
+{
+  "name": "kata-brushkeep",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Brushkeep \u2014 make space for your next world.",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check src/model.js && node --check src/renderer.js && node --check src/app.js && node --check scripts/dev.mjs && node --check tests/tests.js && node --check src/solid-renderer.js",
+    "test": "node scripts/test-help.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

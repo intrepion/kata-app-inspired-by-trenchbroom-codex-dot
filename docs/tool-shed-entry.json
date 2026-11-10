@@ -1,0 +1,51 @@
+{
+  "id": "kata-app-inspired-by-trenchbroom-codex-dot",
+  "title": "Kata Brushkeep",
+  "inspiration": "TrenchBroom",
+  "category": "Game development",
+  "tagline": "Make space for your next world.",
+  "description": "An original browser blockout editor inspired by TrenchBroom. Build a small world from solid brushes, shape it in 3D and plan views, and save the idea for its next chapter.",
+  "status": "preview",
+  "repo": null,
+  "launch": null,
+  "verified": null,
+  "verificationEvidence": "Local preview only. 65 browser-served tests passed (42 model/rendering, 23 DOM integration). Native browser checks covered draw/move/orbit/undo, autosave reload, JSON download/reopen, OBJ/MAP downloads, and 320/390 CSS-pixel layouts. No application-origin console errors observed. MAP remains unverified in TrenchBroom and game engines.",
+  "features": [
+    "Orbitable 3D and XY plan views",
+    "Grid-snapped brush drawing and movement",
+    "Six materials and precise geometry inspector",
+    "Player-start and light markers",
+    "80-edit undo and redo",
+    "Editable JSON projects and browser autosave",
+    "OBJ geometry export",
+    "Experimental Quake standard MAP export"
+  ],
+  "projectNotes": [
+    "Original independent learning project inspired by TrenchBroom, not an official product or feature-complete substitute.",
+    "Axis-aligned cuboid brushes only. No CSG, arbitrary vertex editing, texture imports, collision, engine preview, or map compiler.",
+    "Brushkeep JSON is the only editable import format. OBJ exports untextured Z-up geometry. MAP export is experimental, uses placeholder textures, and has not been verified in TrenchBroom or a game engine.",
+    "Browser autosave is not a backup. Save a JSON project for safekeeping."
+  ],
+  "screenshots": [
+    {
+      "file": "/screenshots/apps/kata-app-inspired-by-trenchbroom-codex-dot/brushkeep-desktop.jpg",
+      "alt": "Brushkeep courtyard blockout in the desktop editor with 3D solid brushes, material palette and numeric inspector.",
+      "caption": "The quiet courtyard in the desktop production-build viewport.",
+      "width": 1180,
+      "height": 757,
+      "capturedAt": "2026-11-10T09:07:53.056879+00:00",
+      "sha256": "b3cfa8c8e447ce33543e5d1b3a9311353fb1ebce8b448763b8ca2fb1085acb56",
+      "source": "Original Chrome/CUA viewport screenshot of the final local production build at http://127.0.0.1:4173/dist/. The lower plan view is outside this viewport capture. No image editing. Not a deployed build."
+    },
+    {
+      "file": "/screenshots/apps/kata-app-inspired-by-trenchbroom-codex-dot/brushkeep-narrow.jpg",
+      "alt": "Brushkeep responsive browser fixture showing the app in a 390 CSS-pixel-wide iframe with zero horizontal overflow.",
+      "caption": "390 CSS-pixel responsive review, with the browser QA controls visible.",
+      "width": 1180,
+      "height": 757,
+      "capturedAt": "2026-11-10T09:07:53.058667+00:00",
+      "sha256": "9de07e3db50166eaabeeb8f91705a134f4dacf31de2e4d6b041235682bb9e0e7",
+      "source": "Original Chrome/CUA viewport screenshot at http://127.0.0.1:4173/tests/responsive.html. App shown in a 390 CSS-pixel-wide same-origin iframe; remaining image width is the QA page background. Not a physical-device test. No image editing."
+    }
+  ]
+}
