@@ -31,7 +31,7 @@
       "caption": "The quiet courtyard in the desktop production-build viewport.",
       "width": 1180,
       "height": 757,
-      "capturedAt": "2026-11-10T09:07:53.056879+00:00",
+      "capturedAt": "2026-11-10T09:04:19.709058+00:00",
       "sha256": "b3cfa8c8e447ce33543e5d1b3a9311353fb1ebce8b448763b8ca2fb1085acb56",
       "source": "Original Chrome/CUA viewport screenshot of the final local production build at http://127.0.0.1:4173/dist/. The lower plan view is outside this viewport capture. No image editing. Not a deployed build."
     },
@@ -41,7 +41,7 @@
       "caption": "390 CSS-pixel responsive review, with the browser QA controls visible.",
       "width": 1180,
       "height": 757,
-      "capturedAt": "2026-11-10T09:07:53.058667+00:00",
+      "capturedAt": "2026-11-10T09:05:34.527893+00:00",
       "sha256": "9de07e3db50166eaabeeb8f91705a134f4dacf31de2e4d6b041235682bb9e0e7",
       "source": "Original Chrome/CUA viewport screenshot at http://127.0.0.1:4173/tests/responsive.html. App shown in a 390 CSS-pixel-wide same-origin iframe; remaining image width is the QA page background. Not a physical-device test. No image editing."
     }
