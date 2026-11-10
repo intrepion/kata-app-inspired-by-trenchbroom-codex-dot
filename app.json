@@ -9,7 +9,7 @@
   "category": "Game development",
   "tagline": "Make space for your next world.",
   "version": "0.1.0",
-  "status": "local-preview",
+  "status": "live",
   "toolShed": "https://intrepion.github.io/tools/",
   "license": "MIT",
   "entry": "index.html",
@@ -45,5 +45,7 @@
       "sha256": "9de07e3db50166eaabeeb8f91705a134f4dacf31de2e4d6b041235682bb9e0e7",
       "source": "Original Chrome/CUA viewport screenshot at http://127.0.0.1:4173/tests/responsive.html. App shown in a 390 CSS-pixel-wide same-origin iframe; remaining image width is the QA page background. Not a physical-device test. No image editing."
     }
-  ]
+  ],
+  "repository": "https://github.com/intrepion/kata-app-inspired-by-trenchbroom-codex-dot",
+  "launch": "https://intrepion.github.io/kata-app-inspired-by-trenchbroom-codex-dot/"
 }

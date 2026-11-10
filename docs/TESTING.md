@@ -37,4 +37,10 @@ Chrome’s full-page/clip screenshot API repeatedly timed out late in the run; t
 - No OBJ host-application interoperability test; the exporter structure, winding and actual download were verified.
 - No physical mobile/touch or browser-matrix testing, no synthetic multi-touch stress suite, no performance benchmark at the 400-object limit, and no forced WebGL-unavailable session.
 - Browser autosave is best-effort storage, not a portable backup. File downloads are browser-managed.
-- Not published. No remote repository, Pages deployment or public URL is claimed.
+- Public release verified separately below; screenshot provenance remains the original local pre-publication capture.
+
+## Publication
+
+The user approved public publication on 2026-11-10. Initial release commit `217960e3482491ed663442a5d520812e6448cb56` passed [checks and Pages deployment](https://github.com/intrepion/kata-app-inspired-by-trenchbroom-codex-dot/actions/runs/42792631680). All ten public static assets returned HTTP 200 and matched the local production build byte for byte on 2026-11-10 at 09:42 UTC. The final metadata-only revision records these verified public links without changing editor runtime assets.
+
+[Public app](https://intrepion.github.io/kata-app-inspired-by-trenchbroom-codex-dot/) · [Source repository](https://github.com/intrepion/kata-app-inspired-by-trenchbroom-codex-dot)

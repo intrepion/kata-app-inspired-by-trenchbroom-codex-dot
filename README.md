@@ -4,7 +4,7 @@
 
 Brushkeep is an original Kata Tool Shed experiment inspired by [TrenchBroom](https://trenchbroom.github.io/). It is a small, browser-based level-blockout editor for practicing spatial design with solid cuboids. It is independent of TrenchBroom and reuses none of its source, branding, artwork, or game assets.
 
-[← Kata Tool Shed](https://intrepion.github.io/tools/)
+[Open Brushkeep](https://intrepion.github.io/kata-app-inspired-by-trenchbroom-codex-dot/) · [← Kata Tool Shed](https://intrepion.github.io/tools/)
 
 ## Run locally
 
